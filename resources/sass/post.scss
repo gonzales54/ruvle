@@ -1,0 +1,206 @@
+.post-ul{
+    padding: 0 7.69%;
+    display: block;
+    li{
+        article{
+            text-align: right;
+            border-bottom: solid 1px rgba(131,154,168,0.3);
+            .user-name{
+                display: flex;
+                p{
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                h3{
+                    color: var(--color3);
+                    font-size: 1.25em;
+                }
+            }
+            .content{
+                text-align: left;
+                color: var(--color4);
+            }
+            .post-image{
+                img{
+                    width: 100%;
+                }
+            }
+            .text-muted{
+                color: var(--color3)!important;
+                font-size: 0.75em;
+            }
+            .buttons{
+                form{
+                    input{
+                        width: 22px;
+                        height: 20px;
+                    }
+                    .favorite{
+                        background: url('../image/favorite.png') no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                    }
+                    .unfavorite{
+                        background: url('../image/unfavorite.png') no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                    }
+                }
+                .form-delete{
+                    display: flex;
+                    color: var(--color3);
+                    font-size:0.75em;
+                    .delete{
+                        width: 12px;
+                        height: 12px;
+                        background: url('../image/delete.png') no-repeat;
+                        background-position: center center;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .post-ul{
+        padding: 0;
+        display: block !important;
+        li{
+            article{
+                text-align: right;
+                border-bottom: solid 1px rgba(131,154,168,0.3);
+                .user-name{
+                    display: flex;
+                    p{
+                        img{
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                    h3{
+                        color: var(--color3);
+                        font-size: 1.25em;
+                    }
+                }
+                .content{
+                    text-align: left;
+                    color: var(--color4);
+                }
+                .post-image{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .text-muted{
+                    color: var(--color3)!important;
+                    font-size: 0.75em;
+                }
+                .buttons{
+                    form{
+                        input{
+                            width: 22px;
+                            height: 20px;
+                        }
+                        .favorite{
+                            background: url('../image/favorite.png') no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                        }
+                        .unfavorite{
+                            background: url('../image/unfavorite.png') no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                        }
+                    }
+                    .form-delete{
+                        display: flex;
+                        color: var(--color3);
+                        font-size:0.75em;
+                        .delete{
+                            width: 12px;
+                            height: 12px;
+                            background: url('../image/delete.png') no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1600px){
+    .post-ul{
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        li{
+            article{
+                text-align: right;
+                border-bottom: solid 1px rgba(131,154,168,0.3);
+                .user-name{
+                    display: flex;
+                    p{
+                        img{
+                            width: 40px;
+                            height: 40px;
+                        }
+                    }
+                    h3{
+                        color: var(--color3);
+                        font-size: 1.25em;
+                    }
+                }
+                .content{
+                    text-align: left;
+                    color: var(--color4);
+                }
+                .post-image{
+                    img{
+                        width: 100%;
+                    }
+                }
+                .text-muted{
+                    color: var(--color3)!important;
+                    font-size: 0.75em;
+                }
+                .buttons{
+                    form{
+                        input{
+                            width: 22px;
+                            height: 20px;
+                        }
+                        .favorite{
+                            background: url('../image/favorite.png') no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                        }
+                        .unfavorite{
+                            background: url('../image/unfavorite.png') no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                        }
+                    }
+                    .form-delete{
+                        display: flex;
+                        color: var(--color3);
+                        font-size:0.75em;
+                        .delete{
+                            width: 12px;
+                            height: 12px;
+                            background: url('../image/delete.png') no-repeat;
+                            background-position: center center;
+                            background-size: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
